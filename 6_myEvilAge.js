@@ -1,5 +1,6 @@
 function main(age) {
-    if (age >= 18) {
+    age_str = parseInt(age)
+    if (age_str >= 18) {
         return "Majeur";
     } else {
         return "Mineur";
