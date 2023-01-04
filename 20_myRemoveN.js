@@ -1,4 +1,5 @@
 function main(array, num) {
-    return array.filter(num);
+    array.splice(num, 1);
+    return array
 }
 module.exports = main;
