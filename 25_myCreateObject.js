@@ -1,6 +1,4 @@
-let main = {
-    prenom: "Diarraye",
-    nom: "Dia",
-    age: 31
+function main(surname, name, age) {
+    return {surname, name, age};
 }
 module.exports = main;
